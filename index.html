@@ -1,14 +1,149 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Code Review 5</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="myscript.js></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Code Review 5</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js></script>
+	<script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
 </head>
-<body>
+<header id="header" class="header">
+<img src="img/logoH.png" alt="Logo">
 	
-</body>
+</header><!-- /header including logo -->
+<body>
+	<div class="computer">
+	<h2 id="h2">Dating 2.0</h2>
+	</div>
+	<div class="profilesmain ">
+		
+	<div class="profilesleft">
+	<img id="picMan1" class="pic" src=" " alt=" ">
+	<h3 class="name">Name:</h3>
+	<h3 class="name" id="nameMan1"></h3>
+	<h3 class="surname">Surname:</h3>
+	<h3 class="surname" id="surnameMan1 "></h3>
+	<h3 class="age">Age:</h3>
+	<h3 class="age" id="ageMan1"></h3>
+	<h3 class="performer">Favorite Performer[s]:</h3>
+	<h3 class="performer" id="performerMan1"></h3>
+	<button type="like" class="like " onclick="like(0) ">Like</button>
+	<h3 class="likes"></h3>
+	<img src="img/like.png" alt="like">
+	</div>
+ 
+	<div class="profilesleft">
+	<img id="picMan2" class="pic " src=" " alt=" ">
+	<h3 class="name">Name:</h3>
+	<h3 class="name" id="nameMan2"></h3>
+	<h3 class="surname">Surname:</h3>
+	<h3 class="surname" id="surnameMan2"></h3>
+	<h3 class="age">Age:</h3>
+	<h3 class="age" id="ageMan2"></h3>
+	<h3 class="performer">Favorite Performer[s]:</h3>
+	<h3 class="performer" id="performerMan2"></h3>
+	<button type="like" class="like" onclick="like(1)">Like</button>
+	<h3 class="likes"></h3>
+	<img src="img/like.png" alt="like">
+	</div>
+
+	<div class="profilesright">
+	<img id="picMan3" class="pic" src=" " alt=" ">
+	<h3 class="name">Name:</h3>
+	<h3 class="name" id="nameMan3"></h3>
+	<h3 class="surname">Surname:</h3>
+	<h3 class="surname" id="surnameMan3"></h3>
+	<h3 class="age">Age:</h3>
+	<h3 class="age" id="ageMan3"></h3>
+	<h3 class="performer">Favorite Performer[s]:</h3>
+	<h3 class="performer" id="performerMan3"></h3>
+	<button type="like" class="like" onclick="like(2)">Like</button>
+	<h3 class="likes"></h3>
+	<img src="img/like.png" alt="like">
+	</div>
+
+	<div class="profilesright">
+	<img id="picMan4" class="pic" src=" " alt=" ">
+	<h3 class="name">Name:</h3>
+	<h3 class="name" id="nameMan4"></h3>
+	<h3 class="surname">Surname:</h3>
+	<h3 class="surname" id="surnameMan4"></h3>
+	<h3 class="age">Age:</h3>
+	<h3 class="age" id="ageMan4"></h3>
+	<h3 class="performer">Favorite Performer[s]:</h3>
+	<h3 class="performer" id="performerMan4"></h3>
+	<button type="like" class="like" onclick="like(3)">Like</button>
+	<h3 class="likes"></h3>
+	<img src="img/like.png" alt="like">
+	</div>
+
+	<div class="profilesleft">
+	<img id="picWoman1" class="pic" src=" " alt=" ">
+	<h3 class="name">Name:</h3>
+	<h3 class="name" id="nameWoman1 "></h3>
+	<h3 class="surname">Surname:</h3>
+	<h3 class="surname" id="surnameWoman1"></h3>
+	<h3 class="age">Age:</h3>
+	<h3 class="age" id="ageWoman1"></h3>
+	<h3 class="performer">Favorite Performer[s]:</h3>
+	<h3 class="performer" id="performerWoman1"></h3>
+	<button type="like" class="like" onclick="like(4)">Like</button>
+	<h3 class="likes"></h3>
+	<img src="img/like.png" alt="like">
+	</div>
+
+	<div class="profilesleft">
+	<img id="picWoman2" class="pic" src=" " alt=" ">
+	<h3 class="name">Name:</h3>
+	<h3 class="name" id="nameWoman2"></h3>
+	<h3 class="surname">Surname:</h3>
+	<h3 class="surname" id="surnameWoman2"></h3>
+	<h3 class="age">Age:</h3>
+	<h3 class="age" id="ageWoman2"></h3>
+	<h3 class="performer">Favorite Performer[s]:</h3>
+	<h3 class="performer" id="performerWoman2"></h3>
+	<button type="like" class="like" onclick="like(5)">Like</button>
+	<h3 class="likes "></h3>
+	<img src="img/like.png" alt="like">
+	</div>
+
+	<div class="profilesright">
+	<img id="picWoman3" class="pic" src=" " alt=" ">
+	<h3 class="name">Name:</h3>
+	<h3 class="name" id="nameWoman3 "></h3>
+	<h3 class="surname">Surname:</h3>
+	<h3 class="surname" id="surnameWoman3"></h3>
+	<h3 class="age">Age:</h3>
+	<h3 class="age" id="ageWoman3"></h3>
+	<h3 class="performer">Favorite Performer[s]:</h3>
+	<h3 class="performer" id="performerWoman3"></h3>
+	<button type="like" class="like" onclick="like(6)">Like</button>
+	<h3 class="likes"></h3>
+	<img src="img/like.png" alt="like">
+	</div>
+
+	<div class="profilesright">
+	<img id="picWoman4" class="pic" src=" " alt=" ">
+	<h3 class="name">Name:</h3>
+	<h3 class="name" id="nameWoman4"></h3>
+	<h3 class="surname">Surname:</h3>
+	<h3 class="surname" id="surnameWoman4"></h3>
+	<h3 class="age">Age:</h3>
+	<h3 class="age" id="ageWoman4"></h3>
+	<h3 class="performer">Favorite Performer[s]:</h3>
+	<h3 class="performer" id="performerWoman4"></h3>
+	<button type="like" class="like" onclick="like(7)">Like</button>
+	<h3 class="likes"></h3>
+	<img src="img/like.png" alt="like">
+	</div>
+	</div> --> 
+
+<script src="myscript.js "></script>	
+</body><!-- body inlcuding picture and profiles --> 
+<footer>
+	<img src="img/logoF.png " alt="Logo ">
+	
+</footer><!-- footer including logo --> 
 </html>
