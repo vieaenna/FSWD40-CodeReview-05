@@ -21,7 +21,7 @@ var Persons = [{
         surname: 'Wood',
         favoritePerformers: ["Justin Bieber", "Imagine Dragons", "Chainsmokers"],
         age: 23,
-        myPhoto: "img/men3.jpg",
+        myPhoto: "img/man3.jpg",
         likes: 0
     },
 
@@ -30,7 +30,7 @@ var Persons = [{
         surname: 'Thomason',
         favoritePerformers: ["Mumford and Sons", "Joseph Arthur", "Oasis"],
         age: 26,
-        myPhoto: "img/men4.jpg",
+        myPhoto: "img/man4.jpg",
         likes: 0
     },
 
@@ -39,7 +39,7 @@ var Persons = [{
         surname: 'Montana',
         favoritePerformers: ["Mighty Oaks", "Death Cab for Cutie", "Sam Smith"],
         age: 25,
-        myPhoto: "img/woman1.jpg",
+        myPhoto: "img/women1.jpg",
         likes: 0
     },
 
@@ -48,7 +48,7 @@ var Persons = [{
         surname: 'Bell',
         favoritePerformers: ["Michael Jackson", "Frank Sinatra", "Marilyn Monroe"],
         age: 20,
-        myPhoto: "img/woman2.jpg",
+        myPhoto: "img/women2.jpg",
         likes: 0
     },
 
@@ -57,7 +57,7 @@ var Persons = [{
         surname: 'Horan',
         favoritePerformers: ["One Direction", "Miley Cyrus", "Justin Bieber"],
         age: 23,
-        myPhoto: "img/woman3.jpg",
+        myPhoto: "img/women3.jpg",
         likes: 0
     },
 
@@ -66,7 +66,7 @@ var Persons = [{
         surname: 'Mayer',
         favoritePerformers: ["John Mayer", "James Arthur", "Gavin James"],
         age: 27,
-        myPhoto: "img/woman4.jpg",
+        myPhoto: "img/women4.jpg",
         likes: 0
     }
 
